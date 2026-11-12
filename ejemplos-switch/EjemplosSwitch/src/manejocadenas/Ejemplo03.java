@@ -34,7 +34,7 @@ public class Ejemplo03 {
                 cadenaFinal,
                 provincia);
         
-        System.out.println("Ingrese la país");
+        System.out.println("Ingrese el país");
         String pais = entrada.nextLine(); // 
         
         cadenaFinal = String.format("%sPaís:%s\n",  
@@ -45,3 +45,8 @@ public class Ejemplo03 {
         
     }
 }
+/*
+    El String.format sirve para acumular las variables de cadenas de manera 
+    secuencial y permite al final solo imprimir la variable acumulativa
+    con todos los datos que se fueron guardando en el proceso.
+*/
